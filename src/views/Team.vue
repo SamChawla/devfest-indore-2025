@@ -217,9 +217,7 @@ onMounted(() => {
   margin-bottom: var(--space-lg);
 }
 
- /*  Popup animation */
-
-/* Disable Vue fade flash completely */
+/*  Popup animation */
 .fade-enter-active,
 .fade-leave-active {
   transition: none !important;
@@ -267,8 +265,6 @@ onMounted(() => {
     transition: transform 0.45s cubic-bezier(0.23, 1, 0.32, 1);
   }
 }
-
-
 
 /* Social icons */
 .modal-social {
