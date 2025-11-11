@@ -9,8 +9,8 @@
 import BadgeGenerator from '../components/Badges.vue'
 
 export default {
-  name: 'BadgeView'
-  , components: {
+  name: 'BadgeView',
+  components: {
     BadgeGenerator
   }
 }
