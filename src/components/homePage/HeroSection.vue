@@ -34,7 +34,7 @@
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
-            <span class="location-link">Marriott Indore</span>
+            <span class="location-link" @click="handleLocationClick">Marriott Indore</span>
           </div>
         </div>
 
@@ -61,6 +61,9 @@ export default {
   methods: {
     handleRegister() {
       window.open('https://konfhub.com/pre-devfest-indore', '_blank')
+    },
+    handleLocationClick() {
+      window.open('https://www.google.com/maps/search/?api=1&query=Indore%20Marriott%20Hotel%20H-2%20Scheme%20No%2054%2C%20Meghdoot%20Garden%2C%20Vijay%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh%20452010%2C%20India', '_blank')
     }
   }
 }
@@ -172,6 +175,14 @@ export default {
 .location-link {
   text-decoration: underline;
   cursor: pointer;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+.location-link:hover {
+  color: #4285F4;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .cta-buttons {
