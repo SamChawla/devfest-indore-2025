@@ -63,6 +63,7 @@ devfest-indore-2025/
 │   │   ├── Team.vue      # Team page (/team)
 │   │   ├── Agenda.vue    # Agenda page (/agenda)
 │   │   └── Sponsers.vue  # Sponsors page (/sponsors)
+|   |   └── FAQ.vue       # FAQ Page (/FAQ)
 │   │
 │   └── router/           # Routing configuration
 │       └── index.js      # Defines all routes (which URL shows which page)
@@ -101,6 +102,7 @@ Each `.vue` file in this folder represents a different page:
 - `Team.vue` → Shows when you visit `/team`
 - `Agenda.vue` → Shows when you visit `/agenda`
 - `Sponsers.vue` → Shows when you visit `/sponsors`
+- `FAQ.vue` → Show When you visit `/FAQ`
 
 **Think of them as:** Different rooms in your house 🚪
 
