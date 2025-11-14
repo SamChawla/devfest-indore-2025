@@ -11,12 +11,11 @@
 </template>
 
 <script setup>
-// no special logic required
 </script>
 
 <style scoped>
 .register-page {
-  padding: 7rem 1rem 3rem; /* account for fixed header */
+  padding: 7rem 1rem 3rem; /*  fixed header */
 }
 .container {
   width: min(1100px, 94%);
