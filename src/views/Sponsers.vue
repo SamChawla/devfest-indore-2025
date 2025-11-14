@@ -34,13 +34,13 @@
         <div class="sponsor-left">
           <h2 class="sponsor-title">Become a Sponsor</h2>
           <p class="sponsor-text">
-            DevFest Pune is India's largest community driven tech conference,
-            hosted by Google Developer Groups Pune, bringing together industry
+            DevFest Indore is India's largest community driven tech conference,
+            hosted by Google Developer Groups Indore, bringing together industry
             experts for an in-depth exploration of emerging technologies, best
             practices, and innovative solutions.
           </p>
           <p class="sponsor-text">
-            Now in its 12th edition, DevFest Pune continues to attract passionate
+            Now in its 12th edition, DevFest Indore continues to attract passionate
             professionals from diverse industries, including developers,
             architects, product owners, team leaders, coaches, and managers, all
             eager to expand their knowledge and stay ahead of the curve.
@@ -49,7 +49,7 @@
 
         <div class="sponsor-right">
           <p class="sponsor-text">
-            As a DevFest Pune Sponsor, you’ll gain direct access to a highly
+            As a DevFest Indore Sponsor, you’ll gain direct access to a highly
             engaged audience of technology professionals, providing the perfect
             opportunity to:
           </p>
@@ -66,13 +66,13 @@
           </p>
 
           <p class="sponsor-text">
-            Join us in shaping the future of software development at DevFest Pune! 🚀
+            Join us in shaping the future of software development at DevFest Indore! 🚀
           </p>
 
           <p class="sponsor-text">
-            Interested in becoming a DevFest Pune 2025 partner?<br />
+            Interested in becoming a DevFest Indore 2025 partner?<br />
             Write us an email at
-            <a href="mailto:connect@gdgpune.in" class="sponsor-link">connect@gdgpune.in</a>
+            <a href="mailto:	gdgindore@gmail.com" class="sponsor-link">	gdgindore@gmail.com</a>
           </p>
         </div>
       </div>
@@ -404,5 +404,16 @@ export default {
     width: 180px;
     height: 90px;
   }
+
+  .sponsor-text {
+  font-size: 0.97rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: #1f2022ff;
+}
+.sponsor-list li {
+  font-size: 0.97rem;
+  line-height: 1.8;
+}
 }
 </style>
