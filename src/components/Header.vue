@@ -44,10 +44,10 @@ export default {
       isMobileMenuOpen: false,
       navItems: [
         { path: '/', label: 'Home' },
-        // { path: '/agenda', label: 'Agenda' },
-        // { path: '/speakers', label: 'Speakers' },
-       // { path: '/badge', label: 'Badge' },
-      // { path: '/sponsors', label: 'Sponsors' },
+         { path: '/agenda', label: 'Agenda' },
+         { path: '/speakers', label: 'Speakers' },
+        { path: '/badge', label: 'Badge' },
+      { path: '/sponsors', label: 'Sponsors' },
         { path: '/team', label: 'Team' },
         { path: '/faq', label: 'FAQ' }
       ]
