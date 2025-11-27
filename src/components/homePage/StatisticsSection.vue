@@ -149,61 +149,55 @@ export default {
     flex-direction: column;
     padding: 1.5rem;
     width: var(--content-width-tablet);
+    min-height: auto;
   }
 
   .statistics-left {
-    position: relative;
-    width: 100%;
-    justify-content: flex-start;
-    bottom: auto;
-    left: auto;
-  }
-
-  .details-element {
-    max-width: 180px;
+    display: none;
   }
 
   .statistics-blocks {
     width: 100%;
     justify-content: center;
     margin-left: 0;
+    gap: 1rem;
   }
 
   .stat-block {
     min-width: 140px;
     flex: 0 1 calc(50% - 0.5rem);
+    max-width: calc(50% - 0.5rem);
   }
 }
 
 @media (max-width: 768px) {
   .statistics-section {
-    padding: 1.5rem var(--padding-section-x);
+    padding: 1rem var(--padding-section-x);
   }
 
   .statistics-container {
-    padding: 1.25rem;
-    gap: 1.5rem;
-    width: var(--content-width-mobile);
+    padding: 1.5rem 1rem;
+    gap: 0;
+    width: 100%;
+    min-height: auto;
   }
 
   .statistics-left {
-    position: relative;
-    bottom: auto;
-    left: auto;
-  }
-
-  .details-element {
-    max-width: 150px;
+    display: none;
   }
 
   .statistics-blocks {
-    gap: 0.75rem;
+    gap: 1rem;
     margin-left: 0;
+    width: 100%;
+    justify-content: center;
   }
 
   .stat-block {
-    min-width: 100px;
-    height: 180px;
+    min-width: calc(50% - 0.5rem);
+    flex: 0 1 calc(50% - 0.5rem);
+    max-width: calc(50% - 0.5rem);
+    height: 160px;
   }
 
   .stat-number {
@@ -217,37 +211,42 @@ export default {
 
 @media (max-width: 480px) {
   .statistics-section {
-    padding: var(--padding-section-x) 0.75rem;
+    padding: 1rem 0.75rem;
   }
 
   .statistics-container {
-    padding: 1rem;
-    gap: 1rem;
+    padding: 1.25rem 0.75rem;
+    gap: 0;
     border-radius: 12px;
-    width: var(--content-width-mobile);
+    width: 100%;
+    min-height: auto;
   }
 
-  .details-element {
-    max-width: 120px;
+  .statistics-left {
+    display: none;
   }
 
   .statistics-blocks {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
+    gap: 0.75rem;
+    justify-content: space-between;
   }
 
   .stat-block {
-    width: 100%;
-    min-width: unset;
-    height: 160px;
+    width: calc(50% - 0.375rem);
+    min-width: calc(50% - 0.375rem);
+    flex: 0 1 calc(50% - 0.375rem);
+    height: 140px;
   }
 
   .stat-number {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .stat-label {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
   }
 }
 </style>

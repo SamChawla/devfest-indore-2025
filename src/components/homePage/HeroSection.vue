@@ -42,6 +42,7 @@
         <div class="cta-buttons">
           <button class="cta-btn primary" @click="handleRegister">REGISTER NOW</button>
           <router-link to="/sponsors" class="cta-btn secondary">Sponsors</router-link>
+          <button class="cta-btn secondary" @click="handleBecomeMember">Become a member</button>
         </div>
       </div>
 
@@ -64,6 +65,9 @@ export default {
     },
     handleLocationClick() {
       window.open('https://www.google.com/maps/search/?api=1&query=Indore%20Marriott%20Hotel%20H-2%20Scheme%20No%2054%2C%20Meghdoot%20Garden%2C%20Vijay%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh%20452010%2C%20India', '_blank')
+    },
+    handleBecomeMember() {
+      window.open('https://share.google/pADS81Zo5S544KA5Y', '_blank')
     }
   }
 }
