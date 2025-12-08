@@ -38,6 +38,8 @@ import indorixLogo from '@/assets/community-partner-logos/indorix 1 (1).png'
 import mlIndoreLogo from '@/assets/community-partner-logos/ML Indore Logo (2) 1 (1).png'
 import gdgIndoreLogo from '@/assets/community-partner-logos/Logo_Black_Short 1.png'
 import techCommunityLogo from '@/assets/community-partner-logos/image 33005.png'
+import idcCommunityLogo from '@/assets/community-partner-logos/IDC_Community_Partner.png'
+import sakhiLogo from '@/assets/community-partner-logos/Sakhi.png'
 
 export default {
   name: 'CommunityPartnersSection',
@@ -71,6 +73,14 @@ export default {
         {
           name: 'Tech Community',
           logo: techCommunityLogo
+        },
+        {
+          name: 'IDC Community Partner',
+          logo: idcCommunityLogo
+        },
+        {
+          name: 'Sakhi',
+          logo: sakhiLogo
         }
       ]
     }
